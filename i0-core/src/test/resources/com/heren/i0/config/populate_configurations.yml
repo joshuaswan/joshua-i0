@@ -20,7 +20,7 @@ http:
 logging:
   level: DEBUG
   loggers:
-    com.heren.i0.config.ConfigurationTest: DEBUG
+    com.joshua.i0.config.ConfigurationTest: DEBUG
   console:
     level: DEBUG
     format: '%h %l %u %t \"%r\" %s %b'

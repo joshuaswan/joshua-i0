@@ -2,11 +2,11 @@ package com.joshua.i0.core.internal;
 
 import com.google.inject.Binder;
 import com.google.inject.Module;
-import com.heren.i0.config.Configuration;
-import com.heren.i0.core.ApplicationModule;
-import com.heren.i0.core.BindingProvider;
-import com.heren.i0.core.GuiceModule;
-import com.heren.i0.core.internal.util.ClassScanner;
+import com.joshua.i0.config.Configuration;
+import com.joshua.i0.core.ApplicationModule;
+import com.joshua.i0.core.BindingProvider;
+import com.joshua.i0.core.GuiceModule;
+import com.joshua.i0.core.internal.util.ClassScanner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,7 +14,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.Set;
 
 import static com.google.common.base.Joiner.on;
-import static com.heren.i0.core.internal.util.TypePredicates.isModule;
+import static com.joshua.i0.core.internal.util.TypePredicates.isModule;
 
 public class GuiceModuleEnabler implements BindingProvider<GuiceModule, Configuration> {
     private static final Logger logger = LoggerFactory.getLogger(ApplicationModule.class);

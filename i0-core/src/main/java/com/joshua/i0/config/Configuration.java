@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.type.TypeFactory;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.fasterxml.jackson.datatype.guava.GuavaModule;
 import com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector;
-import com.heren.i0.config.builder.Builder;
+import com.joshua.i0.config.builder.Builder;
 
 import javax.validation.constraints.NotNull;
 import javax.xml.bind.annotation.XmlElement;

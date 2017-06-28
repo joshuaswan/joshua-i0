@@ -4,9 +4,9 @@ import com.google.common.base.Function;
 import com.google.common.base.Optional;
 import com.google.common.base.Predicate;
 import com.google.common.base.Throwables;
-import com.heren.i0.config.Configuration;
-import com.heren.i0.core.internal.logging.Logging;
-import com.heren.i0.core.internal.util.ClassScanner;
+import com.joshua.i0.config.Configuration;
+import com.joshua.i0.core.internal.logging.Logging;
+import com.joshua.i0.core.internal.util.ClassScanner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,9 +24,9 @@ import static com.google.common.base.Predicates.and;
 import static com.google.common.collect.ImmutableList.of;
 import static com.google.common.collect.ImmutableSet.copyOf;
 import static com.google.common.collect.Iterables.*;
-import static com.heren.i0.config.Configuration.read;
-import static com.heren.i0.core.internal.util.TypePredicates.isApplicationModule;
-import static com.heren.i0.core.internal.util.TypePredicates.moduleName;
+import static com.joshua.i0.config.Configuration.read;
+import static com.joshua.i0.core.internal.util.TypePredicates.isApplicationModule;
+import static com.joshua.i0.core.internal.util.TypePredicates.moduleName;
 
 public class Launcher {
     private static final Logger logger = LoggerFactory.getLogger(Launcher.class);

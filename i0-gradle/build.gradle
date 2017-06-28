@@ -1,6 +1,6 @@
 apply plugin: 'groovy'
 
-//dependencies {
-//    compile gradleApi()
+dependencies {
+    compile gradleApi()
 //    groovy localGroovy()
-//}
+}

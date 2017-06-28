@@ -1,10 +1,10 @@
 package com.joshua.i0.core.internal.servlet;
 
 import com.google.inject.Binder;
-import com.heren.i0.config.Configuration;
-import com.heren.i0.core.ApplicationModule;
-import com.heren.i0.core.BindingProvider;
-import com.heren.i0.core.Servlet3;
+import com.joshua.i0.config.Configuration;
+import com.joshua.i0.core.ApplicationModule;
+import com.joshua.i0.core.BindingProvider;
+import com.joshua.i0.core.Servlet3;
 
 public class Servlet3Enabler implements BindingProvider<Servlet3, Configuration> {
     @Override

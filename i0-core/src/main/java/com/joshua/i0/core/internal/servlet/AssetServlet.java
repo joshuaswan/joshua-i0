@@ -1,7 +1,7 @@
 package com.joshua.i0.core.internal.servlet;
 
 import com.google.common.hash.Hashing;
-import com.heren.i0.core.internal.util.IOUtils;
+import com.joshua.i0.core.internal.util.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

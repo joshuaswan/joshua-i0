@@ -14,6 +14,12 @@ dependencies {
     }
     compile "org.glassfish.tyrus:tyrus-core:1.8.3-guice-SNAPSHOT"
     compile "org.glassfish.gmbal:gmbal:3.2.0-b003"
+    compile "org.eclipse.jetty:jetty-client:$jettyVersion"
+    compile "org.eclipse.jetty:jetty-server:$jettyVersion"
+//    compile "org.eclipse.jetty:jetty-websocker:$jettyVersion"
+    compile "org.eclipse.jetty.websocket:websocket-client:$jettyVersion"
+    compile "org.eclipse.jetty.websocket:websocket-api:$jettyVersion"
+
     testCompile "org.eclipse.jetty:jetty-client:$jettyVersion"
     testCompile project(':i0-persist-jpa')
     testCompile "org.eclipse.jetty.websocket:websocket-client:$jettyVersion"

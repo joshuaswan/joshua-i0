@@ -1,6 +1,6 @@
 package com.joshua.i0.core;
 
-import com.heren.i0.config.Configuration;
+import com.joshua.i0.config.Configuration;
 
 import java.lang.annotation.Annotation;
 

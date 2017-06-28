@@ -4,7 +4,7 @@ import com.google.common.base.Optional;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.*;
 import com.google.inject.AbstractModule;
-import com.heren.i0.config.Configuration;
+import com.joshua.i0.config.Configuration;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
@@ -19,10 +19,10 @@ import static com.google.common.base.Preconditions.checkState;
 import static com.google.common.collect.ImmutableSet.copyOf;
 import static com.google.common.collect.Iterables.filter;
 import static com.google.common.collect.Iterables.find;
-import static com.heren.i0.config.Configuration.config;
-import static com.heren.i0.core.internal.util.TypePredicates.isFacet;
-import static com.heren.i0.core.internal.util.TypePredicates.isStack;
-import static com.heren.i0.core.internal.util.TypePredicates.typeSubClassOf;
+import static com.joshua.i0.config.Configuration.config;
+import static com.joshua.i0.core.internal.util.TypePredicates.isFacet;
+import static com.joshua.i0.core.internal.util.TypePredicates.isStack;
+import static com.joshua.i0.core.internal.util.TypePredicates.typeSubClassOf;
 
 public abstract class ApplicationModule<T extends Configuration> extends AbstractModule {
     public static final Comparator<Annotation> FACET_COMPARATOR = new Comparator<Annotation>() {

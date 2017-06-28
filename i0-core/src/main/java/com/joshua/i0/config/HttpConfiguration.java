@@ -1,9 +1,9 @@
 package com.joshua.i0.config;
 
 import com.google.common.base.Optional;
-import com.heren.i0.config.builder.Builder;
-import com.heren.i0.config.builder.OptionalBuilder;
-import com.heren.i0.config.util.Duration;
+import com.joshua.i0.config.builder.Builder;
+import com.joshua.i0.config.builder.OptionalBuilder;
+import com.joshua.i0.config.util.Duration;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
@@ -13,8 +13,8 @@ import javax.xml.bind.annotation.XmlType;
 
 import static com.google.common.base.Optional.absent;
 import static com.google.common.base.Optional.of;
-import static com.heren.i0.config.util.Duration.Unit.MINUTES;
-import static com.heren.i0.config.util.Duration.Unit.SECONDS;
+import static com.joshua.i0.config.util.Duration.Unit.MINUTES;
+import static com.joshua.i0.config.util.Duration.Unit.SECONDS;
 
 @XmlType
 public class HttpConfiguration {

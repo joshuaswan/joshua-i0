@@ -2,10 +2,10 @@ package com.joshua.i0.config;
 
 import com.google.common.base.Optional;
 import com.google.common.collect.ImmutableMap;
-import com.heren.i0.config.builder.Builder;
-import com.heren.i0.config.builder.OptionalBuilder;
-import com.heren.i0.config.util.LogLevel;
-import com.heren.i0.config.util.Size;
+import com.joshua.i0.config.builder.Builder;
+import com.joshua.i0.config.builder.OptionalBuilder;
+import com.joshua.i0.config.util.LogLevel;
+import com.joshua.i0.config.util.Size;
 
 import javax.validation.constraints.NotNull;
 import javax.xml.bind.annotation.XmlElement;

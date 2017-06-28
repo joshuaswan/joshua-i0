@@ -15,8 +15,8 @@ import ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP;
 import ch.qos.logback.core.rolling.TimeBasedRollingPolicy;
 import com.google.common.base.Function;
 import com.google.common.base.Optional;
-import com.heren.i0.config.LoggingConfiguration;
-import com.heren.i0.config.util.LogLevel;
+import com.joshua.i0.config.LoggingConfiguration;
+import com.joshua.i0.config.util.LogLevel;
 import org.slf4j.LoggerFactory;
 import org.slf4j.bridge.SLF4JBridgeHandler;
 
@@ -24,8 +24,8 @@ import javax.annotation.Nullable;
 import java.util.Map;
 import java.util.TimeZone;
 
-import static com.heren.i0.config.LoggingConfiguration.ConsoleConfiguration;
-import static com.heren.i0.config.LoggingConfiguration.FileConfiguration;
+import static com.joshua.i0.config.LoggingConfiguration.ConsoleConfiguration;
+import static com.joshua.i0.config.LoggingConfiguration.FileConfiguration;
 
 public class Logging {
 

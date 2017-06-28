@@ -1,6 +1,6 @@
 package com.joshua.i0.core;
 
-import com.heren.i0.core.internal.GuiceModuleEnabler;
+import com.joshua.i0.core.internal.GuiceModuleEnabler;
 
 import java.lang.annotation.*;
 

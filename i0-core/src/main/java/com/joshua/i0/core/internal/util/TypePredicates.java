@@ -2,10 +2,10 @@ package com.joshua.i0.core.internal.util;
 
 import com.google.common.base.Predicate;
 import com.google.inject.Module;
-import com.heren.i0.core.Application;
-import com.heren.i0.core.ApplicationModule;
-import com.heren.i0.core.Facet;
-import com.heren.i0.core.Stack;
+import com.joshua.i0.core.Application;
+import com.joshua.i0.core.ApplicationModule;
+import com.joshua.i0.core.Facet;
+import com.joshua.i0.core.Stack;
 
 import javax.annotation.Nullable;
 import javax.servlet.Filter;

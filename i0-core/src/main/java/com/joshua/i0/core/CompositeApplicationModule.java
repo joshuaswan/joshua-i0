@@ -1,6 +1,6 @@
 package com.joshua.i0.core;
 
-import com.heren.i0.config.Configuration;
+import com.joshua.i0.config.Configuration;
 
 @Application("")
 public class CompositeApplicationModule<T extends Configuration> extends ApplicationModule {

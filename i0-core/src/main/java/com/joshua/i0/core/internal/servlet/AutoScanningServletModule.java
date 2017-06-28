@@ -4,8 +4,8 @@ import com.google.common.base.Function;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.inject.servlet.ServletModule;
-import com.heren.i0.core.ApplicationModule;
-import com.heren.i0.core.internal.util.ClassScanner;
+import com.joshua.i0.core.ApplicationModule;
+import com.joshua.i0.core.internal.util.ClassScanner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,10 +20,10 @@ import java.util.Set;
 import static com.google.common.base.Joiner.on;
 import static com.google.common.collect.Iterables.toArray;
 import static com.google.common.collect.Iterables.transform;
-import static com.heren.i0.core.internal.util.ServletAnnotations.LOG_FORMATTER;
-import static com.heren.i0.core.internal.util.ServletAnnotations.urlPatterns;
-import static com.heren.i0.core.internal.util.TypePredicates.isFilter;
-import static com.heren.i0.core.internal.util.TypePredicates.isHttpServlet;
+import static com.joshua.i0.core.internal.util.ServletAnnotations.LOG_FORMATTER;
+import static com.joshua.i0.core.internal.util.ServletAnnotations.urlPatterns;
+import static com.joshua.i0.core.internal.util.TypePredicates.isFilter;
+import static com.joshua.i0.core.internal.util.TypePredicates.isHttpServlet;
 
 public class AutoScanningServletModule extends ServletModule {
     private static final Logger logger = LoggerFactory.getLogger(ApplicationModule.class);
